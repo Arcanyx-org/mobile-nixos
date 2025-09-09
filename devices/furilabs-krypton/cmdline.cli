@@ -1,0 +1,8 @@
+# Taken From FuriOS
+
+root@FuriPhoneFLX1:~# cat /proc/cmdline
+root=/dev/ram  slub_max_order=0 slub_debug=O console=tty0 console=ttyS0,921600n1
+
+root=/dev/ram vmalloc=400M swiotlb=noforce firmware_class.path=/vendor/firmware has_battery_removed=0 ramoops.mem_address=0x48090000 ramoops.mem_size=0xe0000 ramoops.pmsg_size=0x10000 ramoops.console_size=0x40000 loop.max_part=7 androidboot.boot_devices=bootdevice,soc/11230000.mmc,11230000.mmc,soc/11230000.msdc,11230000.msdc,soc/11270000.ufshci,11270000.ufshci bootopt=64S3,32N2,64N2
+
+root=/dev/ram  androidboot.slot_suffix=_a androidboot.slot=a androidboot.verifiedbootstate=green androidboot.atm=disabled androidboot.force_normal_boot=1 androidboot.meta_log_disable=0 lpddr_used_index=1 mtk_printk_ctrl.disable_uart=0 androidboot.serialno=K7522090800549 androidboot.bootreason=reboot gpt=1 usb2jtag_mode=0 androidboot.dtb_idx=0 androidboot.dtbo_idx=0

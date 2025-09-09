@@ -1,0 +1,20 @@
+= Furilabs Krypton (Furiphone FLX1)
+include::_support/common.inc[]
+
+== Device-specific notes
+
+=== Fastboot and recovery
+
+They can be accessed by holding *Volume Up* at the start of boot and released after the screen turns off.
+
+=== Platform Firmware
+
+...
+
+=== Installer
+
+...
+
+== Usage notes
+
+...

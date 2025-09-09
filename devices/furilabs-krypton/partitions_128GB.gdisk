@@ -1,0 +1,265 @@
+# Taken from FuriOS
+
+root@FuriPhoneFLX1:~# fdisk -l -o Device,Start,End,Size,Attrs,Name
+Disk /dev/ram0: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram1: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram2: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram3: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram4: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram5: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram6: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram7: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram8: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram9: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram10: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram11: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram12: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram13: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram14: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/ram15: 4 MiB, 4194304 bytes, 8192 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/loop0: 506.39 MiB, 530989056 bytes, 1037088 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop1: 776.84 MiB, 814575616 bytes, 1590968 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/loop2: 96.13 MiB, 100798464 bytes, 196872 sectors
+Units: sectors of 1 * 512 = 512 bytes
+Sector size (logical/physical): 512 bytes / 512 bytes
+I/O size (minimum/optimal): 512 bytes / 512 bytes
+
+
+Disk /dev/zram0: 2.98 GiB, 3203145728 bytes, 782018 sectors
+Units: sectors of 1 * 4096 = 4096 bytes
+Sector size (logical/physical): 4096 bytes / 4096 bytes
+I/O size (minimum/optimal): 4096 bytes / 4096 bytes
+
+
+Disk /dev/sda: 4 MiB, 4194304 bytes, 1024 sectors
+Disk model: MT128GASAO4U21
+Units: sectors of 1 * 4096 = 4096 bytes
+Sector size (logical/physical): 4096 bytes / 4096 bytes
+I/O size (minimum/optimal): 131072 bytes / 131072 bytes
+
+
+Disk /dev/sdb: 4 MiB, 4194304 bytes, 1024 sectors
+Disk model: MT128GASAO4U21
+Units: sectors of 1 * 4096 = 4096 bytes
+Sector size (logical/physical): 4096 bytes / 4096 bytes
+I/O size (minimum/optimal): 131072 bytes / 131072 bytes
+
+
+Disk /dev/sdc: 119.17 GiB, 127959826432 bytes, 31240192 sectors
+Disk model: MT128GASAO4U21
+Units: sectors of 1 * 4096 = 4096 bytes
+Sector size (logical/physical): 4096 bytes / 4096 bytes
+I/O size (minimum/optimal): 131072 bytes / 131072 bytes
+Disklabel type: gpt
+Disk identifier: 00000000-0000-0000-0000-000000000000
+
+Device        Start      End   Size Attrs Name
+/dev/sdc1         8      775     3M       proinfo
+/dev/sdc2       776      903   512K       misc
+/dev/sdc3       904     1031   512K       para
+/dev/sdc4      1032    11271    40M       expdb
+/dev/sdc5     11272    11527     1M       frp
+/dev/sdc6     11528    19719    32M       nvcfg
+/dev/sdc7     19720    36103    64M       nvdata
+/dev/sdc8     36104    38151     8M       vbmeta_a
+/dev/sdc9     38152    40199     8M       vbmeta_system_a
+/dev/sdc10    40200    42247     8M       vbmeta_vendor_a
+/dev/sdc11    42248    44295     8M       vbmeta_b
+/dev/sdc12    44296    46343     8M       vbmeta_system_b
+/dev/sdc13    46344    48391     8M       vbmeta_vendor_b
+/dev/sdc14    48392    56583    32M       metadata
+/dev/sdc15    56584    69631    51M       persist
+/dev/sdc16    69632    71679     8M       protect1
+/dev/sdc17    71680    73727     8M       protect2
+/dev/sdc18    73728    75775     8M       seccfg
+/dev/sdc19    75776    88063    48M       otp
+/dev/sdc20    88064   139263   200M       md1img_a
+/dev/sdc21   139264   139519     1M       spmfw_a
+/dev/sdc22   139520   139775     1M       pi_img_a
+/dev/sdc23   139776   140799     4M       dpm_a
+/dev/sdc24   140800   142335     6M       scp_a
+/dev/sdc25   142336   142591     1M       sspm_a
+/dev/sdc26   142592   142847     1M       mcupm_a
+/dev/sdc27   142848   146687    15M       cam_vpu1_a
+/dev/sdc28   146688   150527    15M       cam_vpu2_a
+/dev/sdc29   150528   154367    15M       cam_vpu3_a
+/dev/sdc30   154368   162559    32M       gz_a
+/dev/sdc31   162560   163071     2M       lk_a
+/dev/sdc32   163072   173311    40M       boot_a
+/dev/sdc33   173312   189695    64M       vendor_boot_a
+/dev/sdc34   189696   191743     8M       dtbo_a
+/dev/sdc35   191744   193023     5M       tee_a
+/dev/sdc36   193024   193535     2M       sec1
+/dev/sdc37   193536   209919    64M       nvram
+/dev/sdc38   209920   216575    26M       boot_para
+/dev/sdc39   216576   219135    10M       logo
+/dev/sdc40   219136   270335   200M       md1img_b
+/dev/sdc41   270336   270591     1M       spmfw_b
+/dev/sdc42   270592   270847     1M       pi_img_b
+/dev/sdc43   270848   271871     4M       dpm_b
+/dev/sdc44   271872   273407     6M       scp_b
+/dev/sdc45   273408   273663     1M       sspm_b
+/dev/sdc46   273664   273919     1M       mcupm_b
+/dev/sdc47   273920   277759    15M       cam_vpu1_b
+/dev/sdc48   277760   281599    15M       cam_vpu2_b
+/dev/sdc49   281600   285439    15M       cam_vpu3_b
+/dev/sdc50   285440   293631    32M       gz_b
+/dev/sdc51   293632   294143     2M       lk_b
+/dev/sdc52   294144   304383    40M       boot_b
+/dev/sdc53   304384   320767    64M       vendor_boot_b
+/dev/sdc54   320768   322815     8M       dtbo_b
+/dev/sdc55   322816   325631    11M       tee_b
+/dev/sdc56   325632  2160639     7G       super
+/dev/sdc57  2160640 31231991 110.9G       userdata
+/dev/sdc58 31231992 31236087    16M       mrdump
+/dev/sdc59 31236088 31240183    16M       flashinfo
+
+Partition 1 does not start on physical sector boundary.
+Partition 2 does not start on physical sector boundary.
+Partition 3 does not start on physical sector boundary.
+Partition 4 does not start on physical sector boundary.
+Partition 5 does not start on physical sector boundary.
+Partition 6 does not start on physical sector boundary.
+Partition 7 does not start on physical sector boundary.
+Partition 8 does not start on physical sector boundary.
+Partition 9 does not start on physical sector boundary.
+Partition 10 does not start on physical sector boundary.
+Partition 11 does not start on physical sector boundary.
+Partition 12 does not start on physical sector boundary.
+Partition 13 does not start on physical sector boundary.
+Partition 14 does not start on physical sector boundary.
+Partition 15 does not start on physical sector boundary.
+Partition 58 does not start on physical sector boundary.
+Partition 59 does not start on physical sector boundary.
+
+
+Disk /dev/mapper/droidian-droidian--persistent: 32 MiB, 33554432 bytes, 8192 sectors
+Units: sectors of 1 * 4096 = 4096 bytes
+Sector size (logical/physical): 4096 bytes / 4096 bytes
+I/O size (minimum/optimal): 131072 bytes / 131072 bytes
+
+
+Disk /dev/mapper/droidian-droidian--reserved: 32 MiB, 33554432 bytes, 8192 sectors
+Units: sectors of 1 * 4096 = 4096 bytes
+Sector size (logical/physical): 4096 bytes / 4096 bytes
+I/O size (minimum/optimal): 131072 bytes / 131072 bytes
+
+
+Disk /dev/mapper/droidian-droidian--rootfs: 110.83 GiB, 119004987392 bytes, 29053952 sectors
+Units: sectors of 1 * 4096 = 4096 bytes
+Sector size (logical/physical): 4096 bytes / 4096 bytes
+I/O size (minimum/optimal): 131072 bytes / 131072 bytes
+
+
+Disk /dev/mapper/furios_encrypted: 110.83 GiB, 119004987392 bytes, 29053952 sectors
+Units: sectors of 1 * 4096 = 4096 bytes
+Sector size (logical/physical): 4096 bytes / 4096 bytes
+I/O size (minimum/optimal): 131072 bytes / 131072 bytes
+
+
+Disk /dev/mapper/dynpart-system_a: 2.63 GiB, 2829148160 bytes, 690710 sectors
+Units: sectors of 1 * 4096 = 4096 bytes
+Sector size (logical/physical): 4096 bytes / 4096 bytes
+I/O size (minimum/optimal): 131072 bytes / 131072 bytes
+
+
+Disk /dev/mapper/dynpart-vendor_a: 673.81 MiB, 706539520 bytes, 172495 sectors
+Units: sectors of 1 * 4096 = 4096 bytes
+Sector size (logical/physical): 4096 bytes / 4096 bytes
+I/O size (minimum/optimal): 131072 bytes / 131072 bytes
+
+
+Disk /dev/mapper/dynpart-vendor_b: 673.81 MiB, 706539520 bytes, 172495 sectors
+Units: sectors of 1 * 4096 = 4096 bytes
+Sector size (logical/physical): 4096 bytes / 4096 bytes
+I/O size (minimum/optimal): 131072 bytes / 131072 bytes
