@@ -35,6 +35,8 @@ module Configuration
           return "pine64-pinetab"
         when /^google,juniper/
           return "acer-juniper"
+        when /^google,hana/
+          return "lenovo-hana"
         when /^google,krane/
           return "lenovo-krane"
         when /^google,lazor/
@@ -73,7 +75,7 @@ module Configuration
       case identifier
       when "pine64-pinephone", "pine64-pinetab", "pine64-pinephonepro"
         return "u-boot"
-      when "acer-juniper", "acer-lazor", "lenovo-krane", "lenovo-wormdingler", "asus-dumo"
+      when "acer-juniper", "acer-lazor", "lenovo-hana", "lenovo-krane", "lenovo-wormdingler", "asus-dumo"
         return "depthcharge"
       end
 
