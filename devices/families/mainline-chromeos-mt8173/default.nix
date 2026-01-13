@@ -13,6 +13,7 @@
 
   mobile.boot.stage-1 = {
     kernel.package = pkgs.callPackage ./kernel {};
+		# kernel.package = pkgs.linuxPackages;
   };
 
   mobile.system.depthcharge.kpart = {

@@ -13,7 +13,7 @@ mobile-nixos.kernel-builder {
 		owner = "torvalds";
 		repo = "linux";
 		rev = "v6.18";
-		# sha256 = "sha256-PQjXBWJV+i2O0Xxbg76HqbHyzu7C0RWkvHJ8UywJSCw=";
+		sha256 = "sha256-F1vg95nMGiXk9zbUzg+/hUq+RjXdFmtN530b7QuqkMc=";
 	};
 
 	patches = [];

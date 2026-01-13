@@ -101,6 +101,9 @@ module Configuration
         when "asus-dumo", "pine64-pinephonepro"
           # RK3399 eMMC
           File.join("/dev/disk/by-path", "platform-fe330000.mmc")
+        when "lenovo-hana"
+          # MT8173 eMMC
+          File.join("/dev/disk/by-path", "platform-11230000.mmc")
         when "acer-juniper", "lenovo-krane"
           # MT8183 eMMC
           File.join("/dev/disk/by-path", "platform-11230000.mmc")

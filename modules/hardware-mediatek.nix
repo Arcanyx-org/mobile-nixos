@@ -8,6 +8,7 @@ let
     cfg.mediatek-mt6785.enable
     cfg.mediatek-mt8127.enable
     cfg.mediatek-mt8183.enable
+		cfg.mediatek-mt8173.enable
   ];
 in
 {
@@ -26,6 +27,11 @@ in
       type = types.bool;
       default = false;
       description = "enable when SOC is Mediatek MT8127";
+    };
+		hardware.socs.mediatek-mt8173.enable = mkOption {
+      type = types.bool;
+      default = false;
+      description = "enable when SOC is Mediatek MT8183";
     };
     hardware.socs.mediatek-mt8183.enable = mkOption {
       type = types.bool;
@@ -56,6 +62,11 @@ in
             ARCH_MEDIATEK = option yes;
           })
         ];
+      };
+    }
+		{
+      mobile = mkIf cfg.mediatek-mt8173.enable {
+        system.system = "aarch64-linux";
       };
     }
     {
